@@ -1,9 +1,16 @@
-# Vue 3 + TypeScript + Vite
+# Simple Shop Website
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+- This project about creating a demo project for Simple Shop System as UI tool:
 
-## Recommended Setup
+## Project Requirements
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- This project is about visualizing the UI of the backend project as it's main dependency.
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+## Installation instructions
+
+- Clone project : `git clone https://github.com/seiftahawy54/Simple-Shop-Front.git
+- Create `.env` file for environment variables : `touch .env`
+- Add important variables before running the app:
+    - `VITE_BACKEND_URL` : to connect to project's backend.
+- Install dependencies : `yarn install`
+- Run the project in dev mode : `yarn dev`
